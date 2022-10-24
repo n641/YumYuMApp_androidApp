@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Talabat</string>
+
+    <string name="signUp">SignUp</string>
+    <string name="sign_up">Let\'s get started!</string>
+    <string name="slogen">create an account to tlabat to get all you need</string>
+    <string name="name">Enter your userName</string>
+    <string name="email">Enter your Email</string>
+    <string name="pass">Ente your Password</string>
+    <string name="com_pass">Comform password</string>
+    <string name="number">Enter your Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="birth_date">Bitrh date</string>
+
+    <string name="Welcome">Welcome back!</string>
+    <string name="login_slogen">login in to your account to get your order</string>
+    <string name="Login_email">Enter your Email or number</string>
+    <string name="login">Log In</string>
+    <string name="GOOGLE">Google</string>
+    <string name="DHA">Don\'t have an account?SignUp</string>
+
+    <string name="forget_pass">Forget Password?</string>
+    <string name="or_login_With">Or Login With</string>
+    <string name="face">Facebook</string>
+    <string name="google">Google</string>
+
+</resources>
