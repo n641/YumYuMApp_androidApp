@@ -15,11 +15,13 @@
 
         <activity
             android:name=".Login"
-            android:exported="false" />
+            android:exported="false" >
 
+
+        </activity>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".SignUp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -2,9 +2,8 @@ package com.example.talabat
 
 import Models.User
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
 class Login : AppCompatActivity() {
@@ -30,13 +29,14 @@ class Login : AppCompatActivity() {
                 password_login.error ="wrong password"
                 password_login.requestFocus()
             }else {
+
               val intent2 = Intent(this , Home::class.java)
                 intent2.putExtra("EuserName" ,user.userName );
                 startActivity(intent2);
             }
         }
         gotoSignin.setOnClickListener{
-             intent = Intent(this , MainActivity::class.java)
+             intent = Intent(this , SignUp::class.java)
             startActivity(intent)
         }
 

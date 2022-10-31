@@ -1,14 +1,12 @@
 package com.example.talabat
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.view.View
-import android.view.Window
-import kotlinx.android.synthetic.main.activity_main.*
 import Models.User
+import android.content.Intent
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class SignUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -54,6 +52,11 @@ class MainActivity : AppCompatActivity() {
                 val user = User(userName1 , email1 , password1 ,address1 , mobileNumber1 , birthDate1)
                 intent.putExtra("ExtraUser" ,user )
                 startActivity(intent);
+
+//                val replyIntent = Intent()
+//                replyIntent.putExtra("ExtraUser", user);
+//                setResult(RESULT_OK, replyIntent);
+//                finish();
 
             }
 
